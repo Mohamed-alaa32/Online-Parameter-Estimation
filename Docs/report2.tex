@@ -1,0 +1,97 @@
+\documentclass{article}
+
+\usepackage{cite}
+\usepackage{subfig}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{float}
+\usepackage{multirow}
+% \usepackage{table} % Removed as it does not exist
+\usepackage{hyperref}
+\usepackage{bookmark}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\newtheorem{theorem}{Theorem}
+
+\begin{document}
+
+\title{Modeling and Parameter Estimation of a Linear Motion Unit\\
+\bigskip
+{\Large \textbf{Team 2, Section 2}} \\ % Increase font size and make bold
+\textbf{Ain Shams University, Faculty of Engineering} % Bold the university and faculty name
+}
+
+\author{Marwan Mahmoud Ali Mahmoud, Mohamed Alaa Abdelkareem, \\Omar Khaled Ahmed Wagih, \\ Adham Waleed Gamal, Omar Emad Eldeen Hassan}
+
+\maketitle
+
+\begin{abstract}
+This project aims to build a mathematical model for a mechatronic system, estimate its parameters, and validate its performance. The system, a DC motor-driven linear motion unit, is experimentally tested to collect input and output data. The model is replicated in Simulink, and the Parameter Estimation tool is used to determine system parameters. The simulated response is compared with the physical model to evaluate accuracy and identify potential discrepancies. This work highlights the application of modeling, simulation, and parameter estimation methodologies in engineering practice.
+\end{abstract}
+
+\section{Introduction}
+The modeling and simulation of dynamic systems are fundamental to understanding and optimizing mechatronic systems. This project involves the design and testing of a linear motion unit driven by a DC motor. The project emphasizes the integration of theoretical modeling, experimental validation, and simulation using MATLAB Simulink. Parameter estimation is used to ensure that the model reflects the system's physical behavior accurately.
+%add asu.png image
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\textwidth]{asu.png}
+\caption{Ain Shams University Logo}\label{fig:asu}
+\end{figure}
+\section{System Design and Components}
+\subsection{Physical System}
+The physical system consists of:
+\begin{itemize}
+    \item A DC motor coupled to a linear motion unit via a belt drive.
+    \item A cart moving on a linear guide rail.
+    \item Measurement interfaces for capturing input and output signals.
+\end{itemize}
+
+\subsection{Simulation Environment}
+The simulation environment is developed in MATLAB Simulink, including:
+\begin{itemize}
+    \item A block diagram representing the system's mathematical model.
+    \item Parameter estimation tools to refine model accuracy.
+\end{itemize}
+
+\section{Mathematical Modeling}
+\subsection{Model Development}
+\begin{itemize}
+    \item Schematic representation of the system components.
+    \item Derivation of mathematical equations governing the system dynamics.
+\end{itemize}
+
+\subsection{Block Diagram}
+The system's block diagram is developed in Simulink to simulate its behavior under various conditions.
+
+\section{Parameter Estimation}
+\begin{itemize}
+    \item Experimental data is collected by applying input signals to the physical system and measuring its response.
+    \item The Parameter Estimation tool in MATLAB is used to adjust model parameters.
+    \item Validation is performed by comparing the simulated response with experimental data.
+\end{itemize}
+
+\section{Results and Analysis}
+\subsection{Comparison of Models}
+[Provide graphical and numerical comparisons between the physical system's measured response and the simulated response.]
+
+\subsection{Discussion}
+[Discuss the accuracy of the parameter estimation and identify possible sources of error or improvement.]
+
+\section{Conclusion}
+This work demonstrates the practical application of parameter estimation in mechatronic system modeling. The comparison between the physical and simulated systems highlights the effectiveness of the chosen methodologies and tools.
+
+\section*{Acknowledgments}
+The authors would like to thank the Department of Mechatronics Engineering at Ain Shams University for their support and resources.
+
+\bibliographystyle{IEEEtran} % Use IEEEtran bibliography style
+\bibliography{references} % Add your references in a file named references.bib
+
+This is an example citation~\cite{example_reference}. % Example citation
+
+% Add more citations as needed
+For more details, refer to~\cite{another_reference}.
+
+\end{document}
