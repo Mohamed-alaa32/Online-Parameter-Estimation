@@ -1,5 +1,5 @@
 \documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts
+\IEEEoverridecommandlockouts%
 
 \usepackage{cite}
 \usepackage{subfig}
@@ -12,6 +12,7 @@
 \usepackage{multirow}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{hyperref}
+\usepackage{bookmark}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \newtheorem{theorem}{Theorem}
@@ -34,7 +35,13 @@ This project aims to build a mathematical model for a mechatronic system, estima
 
 \section{Introduction}
 The modeling and simulation of dynamic systems are fundamental to understanding and optimizing mechatronic systems. This project involves the design and testing of a linear motion unit driven by a DC motor. The project emphasizes the integration of theoretical modeling, experimental validation, and simulation using MATLAB Simulink. Parameter estimation is used to ensure that the model reflects the system's physical behavior accurately.
-
+%add asu.png image
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.2\textwidth]{asu.png}
+    \caption{Ain Shams University Logo}
+\label{fig:asu}
+\end{figure}
 \section{System Design and Components}
 \subsection{Physical System}
 The physical system consists of:
@@ -81,7 +88,12 @@ This work demonstrates the practical application of parameter estimation in mech
 \section*{Acknowledgments}
 The authors would like to thank the Department of Mechatronics Engineering at Ain Shams University for their support and resources.
 
-\bibliographystyle{IEEEtran}
+\bibliographystyle{IEEEtran} % Use IEEEtran bibliography style
 \bibliography{references} % Add your references in a file named references.bib
+
+% Example citation
+\cite{example_reference} % Example citation
+
+\end{document}
 
 \end{document}
