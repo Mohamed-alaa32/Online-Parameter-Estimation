@@ -1,5 +1,4 @@
-\documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts%
+\documentclass{article}
 
 \usepackage{cite}
 \usepackage{subfig}
@@ -10,7 +9,7 @@
 \usepackage{textcomp}
 \usepackage{float}
 \usepackage{multirow}
-\usepackage[table,xcdraw]{xcolor}
+% \usepackage{table} % Removed as it does not exist
 \usepackage{hyperref}
 \usepackage{bookmark}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -25,7 +24,7 @@
 \textbf{Ain Shams University, Faculty of Engineering} % Bold the university and faculty name
 }
 
-\author{\IEEEauthorblockN{Marwan Mahmoud Ali Mahmoud, Mohamed Alaa Abdelkareem, Omar Khaled Ahmed Wagih, \\ Adham Waleed Gamal, Omar Emad Eldeen Hassan}}
+\author{Marwan Mahmoud Ali Mahmoud, Mohamed Alaa Abdelkareem, \\Omar Khaled Ahmed Wagih, \\ Adham Waleed Gamal, Omar Emad Eldeen Hassan}
 
 \maketitle
 
@@ -39,8 +38,7 @@ The modeling and simulation of dynamic systems are fundamental to understanding 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.2\textwidth]{asu.png}
-    \caption{Ain Shams University Logo}
-\label{fig:asu}
+\caption{Ain Shams University Logo}\label{fig:asu}
 \end{figure}
 \section{System Design and Components}
 \subsection{Physical System}
@@ -91,9 +89,9 @@ The authors would like to thank the Department of Mechatronics Engineering at Ai
 \bibliographystyle{IEEEtran} % Use IEEEtran bibliography style
 \bibliography{references} % Add your references in a file named references.bib
 
-% Example citation
-\cite{example_reference} % Example citation
+This is an example citation~\cite{example_reference}. % Example citation
 
-\end{document}
+% Add more citations as needed
+For more details, refer to~\cite{another_reference}.
 
 \end{document}
