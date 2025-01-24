@@ -64,7 +64,7 @@ Below are some visual results from the project:
 
 
 ## Report
-For detailed explanations, derivations, and results, please refer to the full report [here](link_to_report.pdf).
-![My_QR_Code_1-4096](https://github.com/user-attachments/assets/adf08ca2-53db-4251-9062-28494695b95b)
+For detailed explanations, derivations, and results, please refer to the full report [here](https://drive.google.com/file/d/1yMU4xLJWwgrSheOeOfZTUfycAGEJT1Sy/view).
+<!-- ![My_QR_Code_1-4096](https://github.com/user-attachments/assets/adf08ca2-53db-4251-9062-28494695b95b) -->
 
 
